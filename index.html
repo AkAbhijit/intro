@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AkAbhijit</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        thead {
+            background-color: #333;
+            color: #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #f4f4f4;
+        }
+
+        tbody tr:hover {
+            background-color: #e0e0e0;
+        }
+
+        a {
+            color: #008CBA;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #005f6b;
+        }
+
+        /* Link button styling */
+        .btn-link {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-link:hover {
+            background-color: #555;
+        }
+
+        /* Section styling */
+        section {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML: The Language of the Web</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sl No</th>
+                    <th>Name of the Task</th>
+                    <th>Description</th>
+                    <th>Click Here</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Introduction to HTML</td>
+                    <td>Learn the basics of HTML structure.</td>
+                    <td><a href="intro.html" class="btn-link">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>HTML Tags</td>
+                    <td>Explore common HTML tags and their usage.</td>
+                    <td><a href="tages.html" class="btn-link">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>HTML Table</td>
+                    <td>Creating tables to organize data in HTML.</td>
+                    <td><a href="tables.html" class="btn-link">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>HTML Forms</td>
+                    <td>How to create and use forms in HTML.</td>
+                    <td><a href="forms.html" class="btn-link">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Cloning a website.</td>
+                    <td>Cloning a website (pbanks.net)</td>
+                    <td><a href="./pbanks.net/index-2.html" class="btn-link">Click Here</a></td>
+                </tr>
+            </tbody>   
+        </table> 
+        <section> 
+            <a href="about.html" class="btn-link">About</a>
+        </section> 
+    </div>
+</body>
+</html>
